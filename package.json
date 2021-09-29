@@ -10,6 +10,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "format": "prettier --write \"src/**/*.{js,css,scss,html}\"",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "rtl": "webpack"
   },
   "eslintConfig": {
@@ -98,8 +99,8 @@
   },
   "devDependencies": {
     "copyfiles": "2.1.1",
-    "node-sass": "4.13.0",
     "prettier": "1.19.1",
+    "sass": "^1.42.1",
     "serve": "11.2.0"
   }
 }
